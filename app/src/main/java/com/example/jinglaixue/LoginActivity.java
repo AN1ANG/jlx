@@ -2,6 +2,7 @@ package com.example.jinglaixue;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import androidx.annotation.Nullable;
@@ -27,6 +28,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 Intent intent=new Intent();
                 intent.setClass(getApplicationContext(),RegisterActivity.class);
                 startActivity(intent);
+
+                Log.i("111","hello world");
+
                 break;
         }
     }
